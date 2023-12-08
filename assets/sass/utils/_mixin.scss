@@ -1,0 +1,12 @@
+    @mixin d-flex($justify-content: space-between, $aItems:center) {
+        display: flex;
+        justify-content: $justify-content;
+        align-items: $aItems;
+    }
+    @mixin btn ($pad: 35px 104px, $border: none) {
+        font-style: $fontStyle;
+        border: $border;
+        background-color: $primaryBgColor;
+        padding: $pad;
+        color: $primaryColor;
+    }

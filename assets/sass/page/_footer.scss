@@ -1,0 +1,95 @@
+.footer {
+    background-image: url("/assets/img/Rectangle\ 56\ \(1\).svg");
+    width: 100%;
+    height: 800px;
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-size: 800 1800;
+    background-size: contain;
+    background-position-x: left;
+    padding: 0 50px;
+    margin-top: 90px;
+
+    .btn_g {
+        button {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            padding: 15px 24px 15px 22px;
+            background: #fff;
+            margin: 0;
+            color: #000;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 300;
+            line-height: normal;
+            transform: rotate(-90deg);
+            border: 1px solid #000;
+            background: rgba(196, 196, 196, 0);
+    }
+    }
+
+    .imgg {
+        @include d-flex(end);
+        margin-top: 25px;
+        padding-top: 50px;
+        margin-right: 12px;
+
+        .imggg {
+            position: relative;
+            right: 467px;
+            bottom: 50px;
+        }
+
+
+    }
+
+    .footer_logo {
+        margin-top: 75px;
+        margin-right: 80px;
+        @include d-flex;
+
+        .footer_logo_icon {
+            display: flex;
+            gap: 60px;
+        }
+    }
+
+ .footer_link{
+     margin-top: 50px;
+     justify-content: start;
+     align-items: start;
+     display: flex;
+     gap: 100px;
+
+     div {
+         display: flex;
+         flex-direction: column;
+         gap: 10px;
+
+         h4 {
+             color: #faff09;
+             font-size: 24px;
+             font-weight: 700;
+             line-height: 146.187%;
+             margin-bottom: 20px;
+         }
+
+         a {
+             color: var(--Gray-6, #f2f2f2);
+             font-size: 18px;
+             font-weight: 400;
+             line-height: 146.187%;
+         }
+     }
+ }
+
+ .footer_bottom {
+     margin-top: 170px;
+     @include d-flex(center);
+     color: #000;
+     font-size: 14px;
+     font-weight: 300;
+     line-height: 146.187%;
+ }
+    }

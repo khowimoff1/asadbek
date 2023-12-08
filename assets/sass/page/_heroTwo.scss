@@ -1,0 +1,139 @@
+ h3 {
+     color: #000;
+     font-family: Roboto;
+     font-size: 48px;
+     font-style: normal;
+     font-weight: 300;
+     line-height: normal;
+     margin-left: 61px;
+     margin-bottom: 30px;
+ }
+
+ .line {
+     width: 150px;
+     height: 10px;
+     flex-shrink: 0;
+     background: #000;
+     margin-bottom: 6px;
+ }
+
+ .line_4 {
+     width: 1520px;
+     height: 1px;
+     background: #BDBDBD;
+     margin-bottom: 49px;
+ }
+
+ .home {
+     display: flex;
+     padding: 0px 80px 0px 80px;
+
+     .card {
+         img {
+             margin-bottom: 42px;
+         }
+
+         .rectangle {
+             width: 20px;
+             height: 20px;
+             flex-shrink: 0;
+             background: var(--Gray-2, #4F4F4F);
+         }
+
+         h1 {
+             color: #0E0E0E;
+             font-family: Roboto;
+             font-size: 36px;
+             font-style: normal;
+             font-weight: 500;
+             line-height: normal;
+             margin-bottom: 23px;
+             margin-left: 11px;
+         }
+
+         p {
+             color: var(--Gray-2, #4F4F4F);
+             font-family: Roboto;
+             font-size: 18px;
+             font-style: normal;
+             font-weight: 400;
+             line-height: 147.187%;
+             width: 294px;
+             margin-left: 11px;
+             margin-bottom: 68px;
+         }
+     }
+ }
+
+ .heroTwo {
+     display: flex;
+     flex-wrap: wrap;
+     padding: 0px 80px 0px 80px;
+
+     .card {
+         img {
+             margin-bottom: 18px;
+         }
+
+         h1 {
+             color: #000;
+             font-family: Roboto;
+             font-size: 28px;
+             font-style: normal;
+             font-weight: 400;
+             line-height: normal;
+             width: 379px;
+             margin-bottom: 13px;
+         }
+
+         p {
+             color: var(--Gray-2, #4F4F4F);
+             font-family: Roboto;
+             font-size: 24px;
+             font-style: normal;
+             font-weight: 300;
+             line-height: normal;
+             margin-bottom: 13px;
+         }
+
+         h5 {
+             color: var(--Gray-1, #333);
+             font-family: Roboto;
+             font-size: 18px;
+             font-style: normal;
+             font-weight: 300;
+             line-height: normal;
+             margin-bottom: 48px;
+         }
+     }
+ }
+
+    .btn_two{
+     padding: 19px 45px;
+     flex-shrink: 0;
+     border: 1px solid #000;
+     background: #000;
+    margin-left: 600px;
+     margin-bottom: 52px;
+
+     span {
+         color: var(--Gray-6, #F2F2F2);
+         text-align: center;
+         font-family: Roboto;
+         font-size: 24px;
+         font-style: normal;
+         font-weight: 300;
+         line-height: normal;
+         margin-left: 11px;
+     }
+
+     img {
+         text-align: justify;
+     }
+    }
+
+
+ .btn_two:hover {
+     background: #938c8c;
+     border: none;
+ }

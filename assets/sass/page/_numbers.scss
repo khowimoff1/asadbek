@@ -1,0 +1,104 @@
+h3 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 673px;
+}
+
+.numbers {
+    padding: 107px 107px 0px 107px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .card {
+        display: flex;
+
+        .card_left {
+            h1 {
+                color: #000;
+                font-family: Roboto;
+                font-size: 64px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 145.687%;
+                margin-top: 100px;
+            }
+        }
+
+        .card_right {
+            margin-bottom: 90px;
+
+            img {
+                margin-bottom: 28px;
+            }
+
+            p {
+                color: var(--Gray-2, #4F4F4F);
+                font-family: Roboto;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 147.687%;
+                width: 300px;
+                margin-bottom: 24px;
+            }
+
+            .stage {
+                width: 163px;
+                height: 52px;
+                flex-shrink: 0;
+                background: #FAFF09;
+                margin-bottom: 12px;
+
+            }
+
+            .chekbox {
+                display: flex;
+                text-align: center
+            }
+
+            a {
+                color: #000;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 147.687%;
+                text-decoration-line: underline;
+                margin-left: 10px;
+            }
+        }
+    }
+
+
+}
+
+.b_button {
+    padding: 20px 130px;
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: normal;
+    background: #fff;
+    border: 1px solid #000;
+    background: rgba(196, 196, 196, 0);
+    margin-left: 190px;
+}
+
+.b_button:hover {
+    background-color: #4F4F4F;
+    color: #fff;
+}
+
+.line_b{
+    width: 1560px;
+    height: 1px;
+    background: #BDBDBD;
+    margin-top: 28px;
+    margin-bottom: 47px;
+}

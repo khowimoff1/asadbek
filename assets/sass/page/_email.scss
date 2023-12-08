@@ -1,0 +1,85 @@
+.email {
+    .span {
+        margin-top: 40px;
+        margin-bottom: 10px;
+
+        h1 {
+            margin-left: 50px;
+            padding-right: 850px;
+            color: #000;
+            font-size: 40px;
+            font-weight: 300;
+            line-height: normal;
+            margin-bottom: 18px;
+        }
+
+        span {
+            display: block;
+            width: 200px;
+            height: 10px;
+            background: #000;
+        }
+    }
+
+    .email_bottom {
+        display: flex;
+        gap: 50px;
+
+        .email_right {
+            h1 {
+                padding-right: 170px;
+                color: #000;
+                font-size: 28px;
+                font-weight: 500;
+                line-height: 146.687%;
+                margin-bottom: 25px;
+                width: 400px;
+            }
+
+            p {
+                padding-right: 170px;
+                color: var(--Gray-2, #4f4f4f);
+                font-size: 15px;
+                font-weight: 300;
+                line-height: 146.187%;
+                margin-bottom: 35px;
+                width: 400px;
+            }
+
+            .input_email {
+                padding: 25px 190px 25px 25px;
+                color: var(--Gray-2, #4f4f4f);
+                font-size: 18px;
+                font-weight: 100;
+                line-height: normal;
+                margin-bottom: 10px;
+            }
+
+            div {
+                margin-bottom: 50px;
+
+                label {
+                    color: var(--Gray-1, #333);
+                    font-size: 12px;
+                    font-weight: 300;
+                    line-height: 146.187%;
+                }
+            }
+        }
+    }
+
+    button {
+        padding: 25px 104px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 28px;
+        font-weight: 300;
+        line-height: normal;
+        border: 1px solid rgb(0, 0, 0);
+        background: rgb(0, 0, 0);
+    }
+
+    button:hover {
+        opacity: 0.5;
+    }
+}
